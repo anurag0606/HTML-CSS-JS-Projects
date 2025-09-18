@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgb(130, 30, 30), violet);
+}
+
+.container {
+    width: 350px;
+    height: 150px ;
+    background-color: rgb(190, 190, 189);
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgb(104, 104, 3);
+    margin-top: 200px;
+    
+    
+}
+#timeDisplay{
+    font-size: 50px;
+    margin: 20px;
+    color: aliceblue;
+}
+button{
+    font-size: 15px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}

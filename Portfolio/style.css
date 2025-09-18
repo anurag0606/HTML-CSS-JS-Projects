@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    display: flex;
+    position: static;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 208);
+    gap: 500px;
+    
+}
+
+.left {
+    text-align: left;
+    padding: 2px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.left p {
+    margin: 5px;
+}
+
+.right {
+    text-align: left;
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.right a {
+    color: rgb(249, 252, 253);
+    text-decoration: none;
+}
+.right a:hover{
+    border: 1px solid white;
+    text-align: center;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.image {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: flex;
+    gap: 70px;
+}
+
+.image img {
+    width: 180px;
+}
+
+.img-deatils {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.skills {
+    padding-bottom: 20px;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+h2 {
+    margin: 20px;
+    font-size: 30px;
+    margin-left: 90px;
+}
+
+.skillbox1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.exp {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: auto;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.exp img {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+
+.exp p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.exp h3 {
+    font-size: 17px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.skillbox2 {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    gap: 70px;
+}
+
+.project {
+    margin: 20px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    
+}
+
+.pro {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 120px;
+}
+
+.pro h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.pro li {
+    font-size: 20px;
+    margin-left: 35px;
+    border: outset;
+    padding: 2px;
+}
+
+.recom {
+    margin-top: 35px;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+.reccont {
+    margin-left: 40px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.rec {
+    width: 400px;
+    font-size: 20px;
+    padding: 15px;
+    border: ridge;
+    border-radius: 10px;
+}
+
+
+
+.extra {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.form label {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30%;
+}
+.form input {
+    width: 500px;
+    margin-top: 15px;
+    padding: 3px;
+    margin-left: 30%;
+    border-radius: 8px;
+}
+#mess {
+    height: 200px;
+}
+.submit {
+    width: 100px;
+    margin: 40px;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: 45%;
+    cursor: pointer;
+    font-size: 15px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form>
+    <div class="bio">
+
+      <h1>Bio-data</h1>
+
+      <p>First Name: <input type="name" name=name placeholder="Name" required /></p>
+
+      <p>Last Name: <input type="name" name="lname" placeholder="Last name" required /></p>
+
+      <fieldset>
+        <legend>Gender:</legend>
+        <p>
+          male <input type="radio" name="gender" id="male">
+          female <input type="radio" name="gender" id="female">
+        </p>
+      </fieldset>
+
+      <p>Date of birth: <input type="date" name="data_of_birth" id="date_of_birth" placeholder="dd/ mm/ yy" required>
+      </p>
+
+      <p>Date & Time: <input type="datetime-local" id="birthdaytime" name="birthdaytime"></p>
+
+      <p>Address: <textarea name="address" id="address"></textarea placeholder="area" required></p>
+    
+  <p>City name: <input type="text" name="" id="city" placeholder="City" required></p>
+  <p>Pincode: <input type="number" name="pincode" id="pincode max="6" placeholder="123456" required></p>
+  
+  <p>Email: <input type="email" name"email" id="email" placeholder="E-mail" required></p>
+  
+  <p>Mobile number: <input type="mobile" id="mobile" maxlength="10" placeholder="Number" required></p>
+
+  <p>Adhar-card: <input type="Adhar card" placeholder="1234-1234-1234"></p>
+
+  
+  <p>Education:
+  <select name="education" id="edu">
+    <option value="">--select an educational--</option>
+    <option value="BE">BE</option>
+    <option value="B.Tec">B.Tec</option>
+    <option value="M.Tec">M.Tec</option>
+    <option value="BCA">BCA</option>
+  </select>
+  </p>
+  <div>
+  <input type="reset">
+  
+  <input type ="submit">
+  </div>
+  
+ </form>
+ </div>
+ <script src="main.js"></script>
+</body>
+</html>

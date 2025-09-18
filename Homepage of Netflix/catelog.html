@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix - Browse</title>
+    <link rel="stylesheet" href="catalog.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="left-nav">
+        <a href="index.html"><h1>NETFLIX</h1></a>
+      </div>
+      <div class="nav-links">
+        <a href="#" class="active">Home</a>
+        <a href="#movies">Movies</a>
+        <a href="#series">TV Shows</a>
+        <a href="#anime">Anime</a>
+        <a href="#cartoons">Cartoons</a>
+      </div>
+      <div class="right-nav">
+        <input type="search" placeholder="Search..." />
+        <button id="profileBtn">Profile</button>
+      </div>
+    </nav>
+
+    <div class="categories-container">
+      <!-- Movies Section -->
+      <section id="movies" class="category">
+        <h2>Movies</h2>
+        <div class="category-tabs">
+          <button class="tab active">Hollywood</button>
+          <button class="tab">Bollywood</button>
+          <button class="tab">South Indian</button>
+        </div>
+        <div class="content-grid">
+          <!-- Movie items will be populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- TV Series Section -->
+      <section id="series" class="category">
+        <h2>TV Series</h2>
+        <div class="category-tabs">
+          <button class="tab active">International</button>
+          <button class="tab">Indian</button>
+          <button class="tab">K-Drama</button>
+        </div>
+        <div class="content-grid">
+          <!-- Series items will be populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- Anime Section -->
+      <section id="anime" class="category">
+        <h2>Anime</h2>
+        <div class="content-grid">
+          <!-- Anime items will be populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- Cartoons Section -->
+      <section id="cartoons" class="category">
+        <h2>Cartoons</h2>
+        <div class="content-grid">
+          <!-- Cartoon items will be populated by JavaScript -->
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

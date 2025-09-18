@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    height: 290px;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 10px;
+    background-color: rgb(243, 191, 191);
+}
+
+h1 {
+    margin: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.cont2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#textarea {
+    border-radius: 4px;
+}
+
+.convert {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 63px;
+}
+
+.cont3 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 63px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#cbutton{
+    margin-left: 36px;
+}
+#fbutton{
+    margin-left: 11px;
+}
+.cont4 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 63px;
+    margin-bottom: 10px;
+}
+
+#submitbutton{
+    display: flex;
+    margin: auto;
+    font-size: 15px;
+    width: 100px;
+    justify-content: center;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#templable{
+    font-size: 20px;
+    display: flex;
+    margin-left: 150px;
+}

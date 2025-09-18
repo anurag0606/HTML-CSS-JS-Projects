@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="cont">
+            <h1>Tip Calculater</h1>
+
+            <div class="bill">
+                <lable for="billAmount">Bill Amount :</lable>
+                <input type="number" id="billAmount" placeholder="Enter the Bill Amount">
+            </div>
+
+            <div class="bill">
+                <lable for="people">Number of People :</lable>
+                <input type="number" id="people" placeholder="Enter the Number of People">
+            </div>
+
+            <div class="bill">
+                <lable for="rating">Service Rating :</lable>
+                <select id="rating">
+                    <option value="1">Poor</option>
+                    <option value="2">Average</option>
+                    <option value="3">Good</option>
+                    <option value="4">Excelent</option>
+                </select>
+            </div>
+
+            <div class="bill">
+                <lable for="meal">Meal Type :</lable>
+                <select id="meal">
+                    <option value="default">Default</option>
+                    <option value="breakfast">Break Fast</option>
+                    <option value="lunch">Lunch</option>
+                    <option value="dinner">Dinner</option>
+                </select>
+            </div>
+
+            <button id="calculate">Calculate</button>
+
+            <div class="result">
+                <h3>Result :</h3>
+                <div id="tipAmount"></div>
+                <div id="totalAmount"></div>
+                <div id="amountPerPerson"></div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

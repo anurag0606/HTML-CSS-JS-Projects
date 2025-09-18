@@ -1,0 +1,277 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2c2c2c;
+}
+
+.container {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(Images/netflixteaser.png);
+}
+
+.left-nevbar {
+  float: left;
+  color: #ff0000;
+}
+
+h1 {
+  margin: 5px 10px;
+  display: flex;
+  font-size: 80px;
+}
+
+.right-nevbar {
+  float: right;
+  justify-content: right;
+  margin: 20px 10px 10px 10px;
+}
+
+select {
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: #232222;
+  color: #fffcfd;
+  border-style: solid;
+  border-color: 1px solid #f9e5e5;
+  width: 125px;
+  outline: none;
+  height: 35px;
+  margin-right: 5px;
+}
+
+button,
+a {
+  font-size: 30px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: hsl(353, 100%, 51%);
+  color: #ffffff;
+  text-decoration: none;
+  border-style: none;
+  height: 35px;
+}
+
+.title {
+  color: #fff;
+  padding-top: 350px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 50px;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+
+h5 {
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+
+form {
+  padding-bottom: 150px;
+}
+
+input {
+  font-style: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  height: 60px;
+  border: none;
+  outline: none;
+}
+
+input,
+input-placeholder {
+  font-size: 20px;
+}
+
+.btn {
+  height: 60px;
+  padding: 15px;
+  font-size: 20px;
+  width: 150px;
+}
+
+.btn a {
+  font-size: 20px;
+}
+
+.container2 {
+  background-color: #000;
+  color: #fbfbfb;
+  display: flex;
+  padding: 5px;
+  position: relative;
+  margin-top: 3px;
+  padding-right: 30px;
+  justify-content: space-evenly;
+}
+
+.tv {
+  background-image: url(Images/netflixteaser.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.para {
+  padding-top: 30px;
+}
+
+.para1 {
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.para h2 {
+  font-size: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 70px;
+}
+
+.para h3 {
+  font-size: 30px;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+.imgs {
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.para3 {
+  margin-top: 60px;
+}
+
+.imgs img {
+  width: 400px;
+}
+
+#vid {
+  border: 5px 5px;
+  border: solid 1px#FFFEFE;
+  border-radius: 4px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+}
+
+.para4 {
+  padding-left: 10px;
+  padding-top: 70px;
+  margin-right: 80px;
+}
+
+.foot {
+  background: black;
+  position: static;
+  margin-top: 3px;
+}
+
+footer {
+  display: flex;
+  padding-bottom: 150px;
+  padding-top: 40px;
+  justify-content: space-evenly;
+}
+
+footer a {
+  background: none;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+\Projects\Front end\HTML, CSS, JS\Homepage of Netflix\style.css
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.85);
+  width: 450px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 4px;
+  color: white;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  background: #333;
+  border-radius: 4px;
+  color: white;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  margin: 16px 0;
+  background: #e50914;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.switch-form {
+  color: #e50914;
+  cursor: pointer;
+}
+
+.close-modal {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+}

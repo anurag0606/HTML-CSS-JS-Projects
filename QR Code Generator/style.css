@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    height: 90vh;
+    margin: 0px;
+    padding: 0px;
+    background-image:url("/img/logo-modal.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.code{
+    width: 400px;
+    height: auto;
+    background-color: rgb(237, 234, 233);
+    padding: 4px;
+    border-radius: 15px;
+    box-shadow: 4px 4px rgb(186, 185, 185);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    padding-top: 9px;
+    text-shadow:7px 4px  rgba(29, 5, 5, 0.184);
+    
+}
+#img{
+    width: 250px;
+    margin-bottom: 15px;
+}
+#size{
+font-size: 15px;
+padding: 3px;
+border-radius: 5px;
+margin-bottom: 15px;
+}
+option{
+    background-color: rgb(20, 20, 20);
+    color: aliceblue;
+}
+
+#text{
+    padding: 4px;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+#gener{
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 7px;
+    width: 110px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.btn:hover{
+    background-color: rgb(106, 105, 105) ;
+}
+
+

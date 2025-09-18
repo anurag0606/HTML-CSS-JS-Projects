@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="nevbar">
+      <div class="left-nevbar">
+        <h1>NETFLIX </h1>
+      </div>
+        <div class="container">
+          <nav class="nevbar">
+            // ...existing code...
+            <div class="right-nevbar">
+                <select name="language" id="language">
+                    <option value="English">English </option>
+                    <option value="हिंदी">हिंदी </option>
+                </select>
+                <a href="index.html?auth=signin" id="signInBtn">Sign In</a>
+            </div>
+            // ...existing code...
+          </nav>
+        </div>
+      
+        <!-- Add this before the closing body tag -->
+        <div class="modal" id="authModal">
+          <div class="modal-content">
+            <!-- Login Form -->
+            <div class="form-container" id="loginForm">
+              <h2>Sign In</h2>
+              <form>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Sign In</button>
+              </form>
+              <p>New to Netflix? <span class="switch-form" id="showSignup">Sign up now</span></p>
+            </div>
+      
+            <!-- Signup Form -->
+            <div class="form-container" id="signupForm" style="display: none;">
+              <h2>Sign Up</h2>
+              <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <button type="submit">Sign Up</button>
+              </form>
+              <p>Already have an account? <span class="switch-form" id="showLogin">Sign in</span></p>
+            </div>
+            <span class="close-modal">&times;</span>
+          </div>
+        </div>
+
+      
+      <div class="title">
+        <h2>Unlimited movies, TV shows and more<h2>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <h5>Ready to watch? Enter your email to create or restart your membership.</h5>
+            <form id="emailForm" action="" method="get" accept-charset="utf-8">
+                <input type="email" id="email" placeholder="Email address" required />
+                <button type="submit" class="btn">Get Started ></button>
+            </form>
+      </div>
+    </nav>
+  </div>
+  <div class="container2">
+    <div class="para para1">
+      <h2>Enjoy on your TV</h2>
+      <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+    </div>
+    <div class="imgs">
+      <img src="Images/tv.png" alt=".." class="tv" />
+    </div>
+  </div>
+  <div class="container2">
+    <div class="imgs ">
+      <img src="Images/IMG_20230926_203056.jpg" alt=".." />
+    </div>
+    <div class="para para3">
+      <h2>Download your shows to watch offline</h2>
+      <h3>Save your favourites easily and always have something to watch.</h3>
+    </div>
+  </div>
+  <div class="container2">
+    <div class="para para1">
+      <h2>Create profiles for kids</h2>
+      <h3>Send children on adventures with their favourite characters in a space made just for them—free with your
+        membership.</h3>
+    </div>
+    <div class="imgs">
+      <img
+        src="Images/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png"
+        alt=".." />
+    </div>
+  </div>
+  <div class="container2">
+    <div class="imgs vidimg">
+      <video autoplay loop muted id="vid">
+        <source src="Images/VID-20230926-WA0003.mp4" type="video/mp4" media="" />
+      </video>
+      <!---  <img src="/device.png" alt=".." class="device"/>-->
+    </div>
+    <div class="para para4">
+      <h2>Watch everywhere</h2>
+      <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+    </div>
+  </div>
+  <div class="foot">
+    <footer>
+      <div class="col1">
+        <ul>
+          <li> <a href="#">FAQ</a> </li>
+          <li> <a href="#"> Help Centre</a> </li>
+          <li> <a href="#">Account</a> </li>
+          <li> <a href="#">Media Centre</a> </li>
+        </ul>
+      </div>
+      <div class="col2">
+        <ul>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Ways to Watch</a></li>
+          <li><a href="#">Terms of Use</a></li>
+        </ul>
+      </div>
+      <div class="col3">
+        <ul>
+          <li> <a href="#">Privacy</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li> <a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col4">
+        <ul>
+          <li><a href="#">Speed Test</a></li>
+          <li><a href="#">Legal Notices</a></li>
+          <li> <a href="#">Only on Netflix</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

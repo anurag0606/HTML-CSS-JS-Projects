@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(60deg, rgb(236, 37, 37), rgb(119, 255, 0), rgb(231, 20, 154));
+    position: relative;
+}
+
+.secondContainer{
+    width: 500px;
+    height: 140px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    box-shadow:  4px 4px(black);
+    transform: translateX(-50%,-50%);
+    transition: all 1s ease-in-out;
+    animation: shadow 1.66s ease-in-out infinite alternate;
+}
+@keyframes shadow{
+    0%{
+        box-shadow: 0 0 5px rgb(0, 20, 56),0 0 200px rgb(93, 93, 93);
+    }
+    100%{
+        box-shadow: 0 0 200px rgb(13, 2, 84),0 0 40px wheat;
+    }
+}
+/* .secondContainer:hover{
+    transform: rotate(360deg);
+} */
+
+
+/* .secondContainer::before{
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 61%;
+    left: -10%;
+    z-index: 1;
+    border-radius: 5px;
+    background: #f41b75;
+}
+.secondContainer::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom:60%;
+    right: -8%;
+    border-radius: 50px;
+    background: #f41b75;
+    z-index: 1;
+} */
+.dateTime{
+    width: 100%;
+    height:180px;
+    background-color: rgb(46, 19, 57) ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(40px);
+}
+.date{
+    width: 100%;
+    height:100%;
+    background-color: rgb(46, 19, 57) ;
+    border-radius: 10px;
+    padding-left:150px ;
+    padding-top:40px ;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(40px);
+}
+
+.date span{
+    font-size: 25px;
+    width: 50px;
+    display: inline;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.time {
+    width: 100%;
+    height:100%;
+    background-color: rgb(46, 19, 57) ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(40px);
+    padding-bottom: 50px;
+}
+.time span{
+    font-size: 35px;
+    width: 60px;
+    display: inline;
+    text-align: center;
+    position: relative;
+    color: white;
+    padding: 10px;
+}
+
+.time span::after{
+    font-size: 10px;
+    position: absolute;
+    bottom: -20px;
+    left: 9px;
+    transform: translateX();
+}
+#hour::after{
+    content: 'HOURS';
+}
+#minutes::after{
+    content: 'MINUTE';
+}
+#second::after{
+    content: 'SECOND';
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Temperature Calculater </h1>
+        <div class="main">
+            <div class="cont2">
+                <lable>Enter Temperature :</lable>
+                <input type="number" id="textarea">
+            </div>
+
+            <lable class="convert">Convert to:</lable>
+
+            <div class="option">
+                <div class="cont3">
+                    <lable>Celsius</lable>
+                    <input type="radio" id="cbutton" name="unit">
+                </div>
+                <div class="cont4">
+                    <lable>Fahereneit</lable>
+                    <input type="radio" id="fbutton" name="unit">
+                </div>
+            </div>
+
+            <button type="button" id="submitbutton">Calculate</button>
+            <lable id="templable"></lable>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
