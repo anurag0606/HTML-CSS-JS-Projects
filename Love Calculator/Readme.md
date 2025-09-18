@@ -1,1 +1,0 @@
-Demo Link = https://love-calculator-nine-beta.vercel.app/

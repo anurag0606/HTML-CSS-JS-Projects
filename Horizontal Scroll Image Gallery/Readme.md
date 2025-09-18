@@ -1,1 +1,0 @@
-Demo Link = https://scroll-image.vercel.app/
